@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\WinLibs">
+      <UniqueIdentifier>{a111464b-5717-4e73-b988-5935991d65ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{31a1c8a3-df3e-421b-8896-a123d12c4f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\CORE">
+      <UniqueIdentifier>{81e2fde0-35ad-41e7-b417-47ee5f39d234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\CORE">
+      <UniqueIdentifier>{1c98f865-5284-40d0-8c52-388bb706d983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Hooks">
+      <UniqueIdentifier>{c072208f-4288-46c9-a36e-8271d6944789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\interfaces">
+      <UniqueIdentifier>{4fc00c28-5db2-497d-8c54-d06c28bdcc6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Interfaces">
+      <UniqueIdentifier>{5d1db9c0-91cc-4bd1-8200-8515b79e61f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\classes">
+      <UniqueIdentifier>{dca87320-369a-44ce-9b68-2aa3267610cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Interfaces\Valve">
+      <UniqueIdentifier>{b3a5677d-6ebc-4e84-ad50-12c7f385a52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\interfaces\Valve">
+      <UniqueIdentifier>{192f36df-2064-43ba-85d7-0f1ef0056092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Features">
+      <UniqueIdentifier>{16ca415b-f101-4b96-bd95-b694f9dce380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Features">
+      <UniqueIdentifier>{e069fe48-7f28-414a-8021-24fe9d62b987}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScane.cpp">
+      <Filter>Исходные файлы\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Исходные файлы\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Исходные файлы\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc.cpp">
+      <Filter>Исходные файлы\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>Исходные файлы\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseEntity.cpp">
+      <Filter>Исходные файлы\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaces.cpp">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Исходные файлы\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Исходные файлы\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMove.cpp">
+      <Filter>Исходные файлы\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="OverrideView.cpp">
+      <Filter>Исходные файлы\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ISurface.cpp">
+      <Filter>Исходные файлы\Interfaces\Valve</Filter>
+    </ClCompile>
+    <ClCompile Include="IVPanel.cpp">
+      <Filter>Исходные файлы\Interfaces\Valve</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintTraverse.cpp">
+      <Filter>Исходные файлы\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Triggerbot.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="IInputSystem.cpp">
+      <Filter>Исходные файлы\Interfaces\Valve</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Исходные файлы\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="LockCursor.cpp">
+      <Filter>Исходные файлы\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Legitbot.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoWall.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Prediction.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Convar.cpp">
+      <Filter>Исходные файлы\Interfaces\Valve</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAim.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="RageBot.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinLib.h">
+      <Filter>Файлы заголовков\WinLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Файлы заголовков\WinLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat.h">
+      <Filter>Файлы заголовков\WinLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks_typedef.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Vars.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVarManager.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="usercmd.h">
+      <Filter>Файлы заголовков\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Файлы заголовков\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="v_matrix.h">
+      <Filter>Файлы заголовков\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseEntity.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Файлы заголовков\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h">
+      <Filter>Файлы заголовков\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseClientDLL.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineClient.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features.h">
+      <Filter>Файлы заголовков\WinLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="player_struc.h">
+      <Filter>Файлы заголовков\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="studio.h">
+      <Filter>Файлы заголовков\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientEntList.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollideable.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientModeShared.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IVPanel.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineTrace.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>Файлы заголовков\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Mask.h">
+      <Filter>Файлы заголовков\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IGlobalVarsBase.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelInfo.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="CTriggerbot.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputSystem.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Legitbot.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="IDebugOverlay.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="CAutoWall.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>Файлы заголовков\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IPhysicsSurfaceProps.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrediction.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IMoveHelper.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="CPrediction.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameMovement.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IMDLCache.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="CMisc.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="IConvar.h">
+      <Filter>Файлы заголовков\interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="Convar.h">
+      <Filter>Файлы заголовков\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CUtlVector.h">
+      <Filter>Файлы заголовков\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CUtlMemory.h">
+      <Filter>Файлы заголовков\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CAntiAim.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="CRageBot.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
